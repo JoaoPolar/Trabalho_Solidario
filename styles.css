@@ -114,6 +114,7 @@ ul {
     }
 
     .texto {
+        width: 100%;
         font-size: 26px;
         text-align: center; 
     }
@@ -127,6 +128,23 @@ ul {
         display: block;
         max-width: 100%;
         height: auto; 
+    }
+
+    .glow-on-hover {
+        display: none;
+    }
+
+    .slideshow-container img{
+        width: 100%;
+    }
+
+    .header_container {
+        padding: 1px;
+    }
+    .header_icons a{
+        display: flex;
+        align-items: center;
+        justify-items: center;
     }
 }
 
@@ -163,7 +181,8 @@ ul {
 
 .ft_galeria img {
   height: 300px;
-  box-shadow: 2px 2px 2px 2px black
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 .ft_galeria {
