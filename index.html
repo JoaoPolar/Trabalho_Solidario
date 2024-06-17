@@ -7,25 +7,77 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="menu">
-        <nav>
-            <div class="links">
-                <a href="#">Página 1</a></li>
-                <a href="#">Página 2</a></li>
-                <a href="#">Página 3</a></li>
-                <a href="#">Página 4</a></li>
+    <header class="header">
+        <div class="header_container">
+            <div class="logo_container">
+                <img class="logo" src="img/logo.svg" alt="logo">
             </div>
-        </nav>
+            <nav class="nav_header">
+                <ul class="header_links">
+                    <li><a href="#"><span>Page</span></a></li>
+                    <li><a href="#"><span>Page</span></a></li>
+                    <li><a href="#"><span>Page</span></a></li>
+                    <li><a href="#"><span>Page</span></a></li>
+                </ul>
+            </nav>
+            <div class="header_icons">
+                <a href="https://www.instagram.com/colore.malu?igsh=a3NjZ2U3djd4bmc2">
+                    <img class="insta" src="img/insta_logo.svg" alt="instagram">
+                </a>
+            </div>
+        </div>
     </header>
-    <main>
-        <h1>Bem-vindo ao Meu Site</h1>
-        <p>Este é um site de exemplo com um fundo rosa e um menu marrom.</p>
+    <main class="fundo">
+        <div class="fundo_main">
+            <div class="slideshow-container">
+                <div class="mySlides fade"><img src="img/arte1.jpg" alt="Arte 1"></div>
+                <div class="mySlides fade"><img src="img/arte2.jpg" alt="Arte 2"></div>
+                <div class="mySlides fade"><img src="img/arte3.jpg" alt="Arte 3"></div>
+            </div>
+            <div class="texto">
+                <h1>Venha conhecer meu trabalho!</h1>
+                <button class="custom-button">Clique Aqui</button>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    <img class="estrela" src="img/deco.svg" alt="estrela">
+    <section>
+        <div class="galeria">
+            <div class="ft_galeria">
+                <img src="img/arte1.jpg" alt="">
+            </div>
+            <div class="ft_galeria">
+                <img src="img/arte1.jpg" alt="">
+            </div>
+            <div class="ft_galeria">
+                <img src="img/arte1.jpg" alt="">
+            </div>
+            <div class="ft_galeria">
+                <img src="img/arte1.jpg" alt="">
+            </div>
+            <div class="ft_galeria">
+                <img src="img/arte1.jpg" alt="">
+            </div>
+            <div class="ft_galeria">
+                <img src="img/arte1.jpg" alt="">
+            </div>
+            <div class="ft_galeria">
+                <img src="img/arte1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <div style="display:none">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <footer class="footer">
+        <p>Produzido pela turma do barulho</p>
+        <img class="ass" src="img/ass.png" alt="assinatura">
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
