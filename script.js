@@ -17,3 +17,12 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
+
+const scrollButton = document.getElementById('scrollButton');
+const targetSection = document.getElementById('target');
+
+scrollButton.addEventListener('click', function() {
+  // Rola para o ponto abaixo da primeira dobra da página
+  const firstFoldBottom = window.innerHeight; // Altura da primeira dobra (altura da viewport)
+  window.scrollTo({ top: firstFoldBottom, behavior: 'smooth' });
+});
