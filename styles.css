@@ -220,6 +220,7 @@ ul {
 }
 
 .title {
+    padding-top: 10px;
     padding-bottom: 30px;
     font-family: "Playwrite AU VIC";
 }
@@ -310,4 +311,8 @@ ul {
     font-size: 16px; 
     outline: none;
     transition: border-color 0.3s;
+}
+
+.formula {
+    background: linear-gradient(to bottom, #373E63, #051023 50%, #242424) !important;
 }
