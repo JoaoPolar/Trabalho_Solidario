@@ -15,14 +15,14 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "flex";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); 
 }
 
 const scrollButton = document.getElementById('scrollButton');
 const targetSection = document.getElementById('target');
 
 scrollButton.addEventListener('click', function() {
-  // Rola para o ponto abaixo da primeira dobra da página
-  const firstFoldBottom = window.innerHeight; // Altura da primeira dobra (altura da viewport)
+  
+  const firstFoldBottom = window.innerHeight;
   window.scrollTo({ top: firstFoldBottom, behavior: 'smooth' });
 });
